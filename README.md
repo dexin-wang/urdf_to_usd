@@ -6,7 +6,7 @@ revise `file_path` and `dest_path` respectively to urdf path and where you want 
 Use the python environment that comes with Isaac sim or Isaac lab to run `urdf_to_usd.py`.
 
 ## By the way
-If you want to use the saved usd model in [Omnigibon](https://behavior.stanford.edu/omnigibson/), base_link or other link but represent root must has a collision geometry, otherwise you can not\
+If you want to use the saved usd model in [Omnigibon](https://behavior.stanford.edu/omnigibson/), base_link or other link representing root must has a collision geometry, otherwise you can not\
 do convex decomposition to the model using the following code:
 
 ```python
